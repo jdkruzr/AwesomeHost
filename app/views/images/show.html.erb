@@ -1,0 +1,7 @@
+<h3>Image Detail</h3>
+<div><%= image_tag @image.url(:medium) %></div>
+<div><%= @image.description %></div>
+<div>Tags: <%= @image.tags.all %>
+<div>Path: <%= @image.url %>
+<div><%= link_to "Edit Image Description or Tags", edit_image_path %></div>
+<div><%= link_to "Delete Image", delete_image_path %></div>

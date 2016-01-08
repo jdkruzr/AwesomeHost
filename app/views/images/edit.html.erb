@@ -1,0 +1,16 @@
+<h3>Edit Image Detail</h3>
+
+<div class="container">
+	<%= form_for @image, url: image_path(@image), multipart: true, method: :patch do |f| %>
+		<div class="form-group">
+			<%= f.label :description %>
+			<%= f.text_area :description, class: 'form-control' %>
+		</div>
+		<div class="form-group">
+			<%= f.label :tags %>
+			<%= f.string :tags, class: 'form-control' %>
+		</div>
+
+		<%= f.submit 'Submit', class: 'btn btn-primary btn-lg' %>
+	<% end %>
+</div>

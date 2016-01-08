@@ -1,0 +1,12 @@
+<h3>Image Index</h3>
+
+<section>
+	<% @images.each do |i| %>
+		<article>
+			<section>
+				<header><%= link_to @i.filename, @i %> || <% link_to "(Edit Image)", @i.edit_image_path %></header>
+				<article><% image_tag @i.url(:thumb) %></article>
+			</section>
+		</article>
+	<% end %>
+</section>			
