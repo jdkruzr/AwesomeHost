@@ -1,7 +1,7 @@
 <h3>Image Detail</h3>
-<div><%= image_tag @image.url(:medium) %></div>
-<div><%= @image.description %></div>
-<div>Tags: <%= @image.tags.all %>
-<div>Path: <%= @image.url %>
+<div><%= image_tag @image.imagefile.url %></div>
+<p><%= @image.description %></p>
+<div>Tags: <%= @image.tag_names %></div>
+<div>Right-click the image and pick "Copy Image Location" to paste a hotlink to the image anywhere!</div>
 <div><%= link_to "Edit Image Description or Tags", edit_image_path %></div>
-<div><%= link_to "Delete Image", delete_image_path %></div>
+<div><%= link_to "Delete Image", image_path, method: :delete %></div>

@@ -1,0 +1,6 @@
+<%= form_tag images_path, :class => 'form-inline', method: 'get' do %>
+  <div class="form-group">
+      <%= text_field_tag 'search', @search, :class => "form-control" %>
+      <%= submit_tag 'Search' %> 
+  </div>
+<% end %>

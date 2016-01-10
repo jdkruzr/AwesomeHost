@@ -1,12 +1,17 @@
 <h3>Image Index</h3>
 
 <section>
-	<% @images.each do |i| %>
-		<article>
-			<section>
-				<header><%= link_to @i.filename, @i %> || <% link_to "(Edit Image)", @i.edit_image_path %></header>
-				<article><% image_tag @i.url(:thumb) %></article>
-			</section>
-		</article>
+	<% if @images.nil? %>
+		<article>No user logged in, or no images available.</article>
+	<% else %>
+	<%= render 'search' %>
+		<% @images.each do |i| %>
+			<article>
+				<section>
+					<header><%= link_to i.imagefile_file_name, i %> || <%= link_to "Edit Image", edit_image_path(i) %></header>
+					<article><%= image_tag i.imagefile.url(:thumb) %></article>
+				</section>
+			</article>
+		<% end %>
 	<% end %>
 </section>			
