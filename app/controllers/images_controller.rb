@@ -48,10 +48,6 @@ class ImagesController < ApplicationController
 		@image = Image.find(params[:id])
 	end
 	
-	def search
-		@image = Image.find(params[]) # This is definitely not right yet.
-	end
-	
 	def destroy
 		@image = Image.find(params[:id])
   		@image.destroy

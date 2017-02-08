@@ -7,7 +7,6 @@ gem 'rails', '4.2.5'
 #gem 'sqlite3'
 # No, use Postgres instead
 gem 'pg'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,6 +42,10 @@ gem 'paperclip'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+group :production do
+gem 'aws-sdk', '< 2.0'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -5095,3 +5095,811 @@ Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by ImagesController#index as HTML
   Rendered images/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.9.1 at 2016-01-11 12:54:30 -0500
+Cannot render console from 192.168.9.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Rendered images/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.97.198.20 at 2016-01-11 12:56:16 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Rendered images/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-674bff13f3a7cb595c348cbcf6beb36a50d7715275832193574695bcfae28131.css?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 24.97.198.20 at 2016-01-11 12:56:17 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 24.97.198.20 at 2016-01-11 12:56:30 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (2.2ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/registrations/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 38ms (Views: 28.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users" for 24.97.198.20 at 2016-01-11 12:57:23 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DqhYD5ExotAFl3YwmUFapbCBWAQ+xFy6d5gMYMpyznvoJLb7wEQsFu30AR+Wlgs+ZPThYYcd5hkJ9f9bIMnsaw==", "user"=>{"email"=>"CaptainCrazyPants@reticulum.us", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'captaincrazypants@reticulum.us' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "captaincrazypants@reticulum.us"], ["encrypted_password", "$2a$10$NtVUYgsXypr9e5XBZxm6T.K3rFtc09yYIX5sbiK725xkrH7uiMSQ2"], ["created_at", "2016-01-11 17:57:23.656271"], ["updated_at", "2016-01-11 17:57:23.656271"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2016-01-11 17:57:23.659608"], ["current_sign_in_at", "2016-01-11 17:57:23.659608"], ["last_sign_in_ip", "24.97.198.20"], ["current_sign_in_ip", "24.97.198.20"], ["sign_in_count", 1], ["updated_at", "2016-01-11 17:57:23.660153"], ["id", 2]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://reticulum.us:3000/
+Completed 302 Found in 65ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 24.97.198.20 at 2016-01-11 12:57:23 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered images/_search.html.erb (0.3ms)
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered images/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 19.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 24.97.198.20 at 2016-01-11 12:57:32 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered images/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 24.97.198.20 at 2016-01-11 12:57:33 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered images/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images?utf8=%E2%9C%93&search=&commit=Search" for 24.97.198.20 at 2016-01-11 12:57:38 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered images/_search.html.erb (0.2ms)
+  Rendered images/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/new" for 24.97.198.20 at 2016-01-11 12:58:16 -0500
+Cannot render console from 24.97.198.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered images/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 32ms (Views: 25.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 46.246.49.219 at 2016-01-11 12:58:44 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Rendered images/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-674bff13f3a7cb595c348cbcf6beb36a50d7715275832193574695bcfae28131.css?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 46.246.49.219 at 2016-01-11 12:58:45 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 46.246.49.219 at 2016-01-11 12:58:51 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (2.2ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 46.246.49.219 at 2016-01-11 12:59:23 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIADkEacK9mOpqHyxEEWg7hZBofdE0NzsFMJ4DLCNAe5FbLpSJxy4t2Aa0+YbE/Ufb45aVhJSuzfenU/IhkVrg==", "user"=>{"email"=>"CaptainCrazyPants@reticulum.us", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "captaincrazypants@reticulum.us"]]
+Completed 401 Unauthorized in 56ms (ActiveRecord: 0.3ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIADkEacK9mOpqHyxEEWg7hZBofdE0NzsFMJ4DLCNAe5FbLpSJxy4t2Aa0+YbE/Ufb45aVhJSuzfenU/IhkVrg==", "user"=>{"email"=>"CaptainCrazyPants@reticulum.us", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (2.2ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 81ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 46.246.49.219 at 2016-01-11 12:59:32 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/passwords/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/password" for 46.246.49.219 at 2016-01-11 12:59:38 -0500
+Cannot render console from 46.246.49.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vMTMOWnMw32EnbkG4qd9WjT9mYefW4XolFQtssgb/+dtUX1AZ8yaRte7c7u+iiQN8RqmaRoBjHf7fVFt2MDeTg==", "user"=>{"email"=>"CaptainCrazyPants@reticulum.us"}, "commit"=>"Send me reset password instructions"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "captaincrazypants@reticulum.us"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."reset_password_token" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["reset_password_token", "38ce7ac844108fb2015cc70fd0262b7f98cc33aa3c727b065d7311ebae6edeab"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "reset_password_token" = $1, "reset_password_sent_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["reset_password_token", "38ce7ac844108fb2015cc70fd0262b7f98cc33aa3c727b065d7311ebae6edeab"], ["reset_password_sent_at", "2016-01-11 17:59:39.089835"], ["updated_at", "2016-01-11 17:59:39.090349"], ["id", 2]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/mailer/reset_password_instructions.html.erb (3.5ms)
+
+Devise::Mailer#reset_password_instructions: processed outbound mail in 11.6ms
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true):
+    2: 
+    3: <p>Someone has requested a link to change your password. You can do this through the link below.</p>
+    4: 
+    5: <p><%= link_to 'Change my password', edit_password_url(@resource, reset_password_token: @token) %></p>
+    6: 
+    7: <p>If you didn't request this, please ignore this email.</p>
+    8: <p>Your password won't change until you access the link above and create a new one.</p>
+  actionpack (4.2.5) lib/action_dispatch/http/url.rb:45:in `full_url_for'
+  actionpack (4.2.5) lib/action_dispatch/http/url.rb:35:in `url_for'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:356:in `block in <class:RouteSet>'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:811:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:811:in `url_for'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:282:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:225:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:347:in `block (2 levels) in define_url_helper'
+  actionpack (4.2.5) lib/action_dispatch/routing/routes_proxy.rb:31:in `edit_user_password_url'
+  actionpack (4.2.5) lib/action_dispatch/routing/routes_proxy.rb:34:in `method_missing'
+  devise (3.5.3) lib/devise/controllers/url_helpers.rb:51:in `block (4 levels) in generate_helpers!'
+  devise (3.5.3) app/views/devise/mailer/reset_password_instructions.html.erb:5:in `__home_jtd__rvm_gems_ruby_______gems_devise_______app_views_devise_mailer_reset_password_instructions_html_erb___3761472978667770570_70307861004860'
+  actionview (4.2.5) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.5) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.5) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.5) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:904:in `block in collect_responses'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:918:in `each'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:918:in `each_template'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:900:in `collect_responses'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:829:in `mail'
+  devise (3.5.3) lib/devise/mailers/helpers.rb:16:in `devise_mail'
+  devise (3.5.3) app/mailers/devise/mailer.rb:12:in `reset_password_instructions'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:596:in `block in process'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:593:in `process'
+  actionmailer (4.2.5) lib/action_mailer/base.rb:584:in `initialize'
+  actionmailer (4.2.5) lib/action_mailer/message_delivery.rb:25:in `new'
+  actionmailer (4.2.5) lib/action_mailer/message_delivery.rb:25:in `__getobj__'
+  actionmailer (4.2.5) lib/action_mailer/message_delivery.rb:34:in `message'
+  actionmailer (4.2.5) lib/action_mailer/message_delivery.rb:85:in `deliver_now'
+  devise (3.5.3) lib/devise/models/authenticatable.rb:170:in `send_devise_notification'
+  devise (3.5.3) lib/devise/models/recoverable.rb:107:in `send_reset_password_instructions_notification'
+  devise (3.5.3) lib/devise/models/recoverable.rb:60:in `send_reset_password_instructions'
+  devise (3.5.3) lib/devise/models/recoverable.rb:124:in `send_reset_password_instructions'
+  devise (3.5.3) app/controllers/devise/passwords_controller.rb:13:in `create'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:59:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ImagesController#index as HTML
+  Rendered images/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 265ms (Views: 256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-674bff13f3a7cb595c348cbcf6beb36a50d7715275832193574695bcfae28131.css?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:28 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 50.200.196.50 at 2016-01-12 19:00:29 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 50.200.196.50 at 2016-01-12 19:01:32 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (5.0ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 55ms (Views: 44.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/users/sign_in" for 50.200.196.50 at 2016-01-12 19:01:41 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JgwgLKYT10bX6qUmFvVUCh+BS3IcewJB8vgB8u/HNTi/Fb/5uCvez+oIx6z5g1frvEus3HVGhiTdb/bZr1lN9g==", "user"=>{"email"=>"starkruzr@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "starkruzr@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_created_at", "2016-01-13 00:01:41.687973"], ["updated_at", "2016-01-13 00:01:41.688653"], ["id", 1]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2016-01-10 17:15:20.798899"], ["current_sign_in_at", "2016-01-13 00:01:41.691857"], ["sign_in_count", 5], ["updated_at", "2016-01-13 00:01:41.692454"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://reticulum.us:3000/
+Completed 302 Found in 75ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 19:01:41 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/_search.html.erb (0.5ms)
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 44ms (Views: 29.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/images?utf8=%E2%9C%93&search=cat&commit=Search" for 50.200.196.50 at 2016-01-12 19:02:20 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"cat", "commit"=>"Search"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 13]]
+  Rendered images/_search.html.erb (0.2ms)
+  Rendered images/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 18.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/images?utf8=%E2%9C%93&search=cats&commit=Search" for 50.200.196.50 at 2016-01-12 19:02:22 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"cats", "commit"=>"Search"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 13]]
+  Rendered images/_search.html.erb (0.2ms)
+  Rendered images/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 19.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images?utf8=%E2%9C%93&search=ca&commit=Search" for 50.200.196.50 at 2016-01-12 19:02:26 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"ca", "commit"=>"Search"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 13]]
+  Rendered images/_search.html.erb (0.2ms)
+  Rendered images/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/12" for 50.200.196.50 at 2016-01-12 19:02:36 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 12]]
+  Rendered images/show.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images/13" for 50.200.196.50 at 2016-01-12 19:03:18 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mImage Load (0.3ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 13]]
+  Rendered images/show.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images/13/edit" for 50.200.196.50 at 2016-01-12 19:03:24 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#edit as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 13]]
+  Rendered images/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/images/13" for 50.200.196.50 at 2016-01-12 19:03:27 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yZa2SymLbaXoywcFscw6vYzU4ocyL+AilRk/SM1ZfxZHtSXuVgSzyien7kGIFHSr+QI2v529djd7btidA/RDnQ==", "image"=>{"description"=>"Another pic", "tag_names"=>"silly cat puppies"}, "commit"=>"Submit", "id"=>"13"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.7ms)[0m  [1mSELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 13]]
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "images_tags" WHERE "images_tags"."image_id" = $1 AND "images_tags"."tag_id" IN (37, 38)  [["image_id", 13]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "silly"], ["created_at", "2016-01-13 00:03:27.525234"], ["updated_at", "2016-01-13 00:03:27.525234"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 13], ["tag_id", 39]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "cat"], ["created_at", "2016-01-13 00:03:27.533640"], ["updated_at", "2016-01-13 00:03:27.533640"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 13], ["tag_id", 40]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "puppies"], ["created_at", "2016-01-13 00:03:27.536793"], ["updated_at", "2016-01-13 00:03:27.536793"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 13], ["tag_id", 41]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://reticulum.us:3000/images/13
+Completed 302 Found in 39ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/images/13" for 50.200.196.50 at 2016-01-12 19:03:27 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mImage Load (0.3ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 13]]
+  Rendered images/show.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:03:09 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/_search.html.erb (0.6ms)
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/new" for 50.200.196.50 at 2016-01-12 20:12:33 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:14:59 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/new" for 50.200.196.50 at 2016-01-12 20:15:00 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/new" for 50.200.196.50 at 2016-01-12 20:15:01 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:15:01 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/new" for 50.200.196.50 at 2016-01-12 20:15:03 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:15:05 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/new" for 50.200.196.50 at 2016-01-12 20:43:25 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/images" for 50.200.196.50 at 2016-01-12 20:44:02 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ifJyqEU3O20d3gT2uYDmzubsuRsYfF52blWJpUamvAQH0eENOrjlAtKy7bKAWKjYkzptI7fuyGOAIm5wiAuAjw==", "image"=>{"description"=>"This is silly.", "tag_names"=>"random tag", "imagefile"=>#<ActionDispatch::Http::UploadedFile:0x007f77ed46d900 @tempfile=#<Tempfile:/tmp/RackMultipart20160112-25251-jdjeeq.gif>, @original_filename="barackohyeah.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"image[imagefile]\"; filename=\"barackohyeah.gif\"\r\nContent-Type: image/gif\r\n">}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Command :: file -b --mime '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-1tmmu7n.gif'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]'
+Command :: convert '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif' -coalesce -auto-orient -resize "100x100>" -layers "optimize" '/tmp/c26278e3ab4ac12925ad8b6cbec8670020160112-25251-5a5qi6'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]'
+Command :: convert '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif' -coalesce -auto-orient -resize "x200" -crop "200x200+68+0" +repage -layers "optimize" '/tmp/c26278e3ab4ac12925ad8b6cbec8670020160112-25251-sllfjd'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif[0]'
+Command :: convert '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-euqo1i.gif' -coalesce -auto-orient -resize "300x300>" -layers "optimize" '/tmp/c26278e3ab4ac12925ad8b6cbec8670020160112-25251-hsdriw'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/tmp/6c7fa39623edad756a3dce29e27d8d4f20160112-25251-1hvro84.gif'
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "images" ("description", "imagefile_file_name", "imagefile_content_type", "imagefile_file_size", "imagefile_updated_at", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["description", "This is silly."], ["imagefile_file_name", "barackohyeah.gif"], ["imagefile_content_type", "image/gif"], ["imagefile_file_size", 616182], ["imagefile_updated_at", "2016-01-13 01:44:02.799112"], ["user_id", 1], ["created_at", "2016-01-13 01:44:04.564851"], ["updated_at", "2016-01-13 01:44:04.564851"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "random"], ["created_at", "2016-01-13 01:44:04.566727"], ["updated_at", "2016-01-13 01:44:04.566727"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 14], ["tag_id", 42]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "tag"], ["created_at", "2016-01-13 01:44:04.568989"], ["updated_at", "2016-01-13 01:44:04.568989"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 14], ["tag_id", 43]]
+  [1m[36m (26.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://reticulum.us:3000/images/14
+Completed 302 Found in 1816ms (ActiveRecord: 28.5ms)
+
+
+Started GET "/images/14" for 50.200.196.50 at 2016-01-12 20:44:04 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mImage Load (0.3ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mTag Load (0.4ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 14]]
+  Rendered images/show.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/images/14/edit" for 50.200.196.50 at 2016-01-12 20:44:14 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 14]]
+  Rendered images/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/images/14" for 50.200.196.50 at 2016-01-12 20:44:19 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S5AK6vt9HTBcf9GR5D3Dpal8XMXAcH2Qw57Bj95+LwjFs5lPhPLDX5MTONXd5Y2z3KqI/W/i64Ut6SZaENMTgw==", "image"=>{"description"=>"This is silly.", "tag_names"=>"random tag obama"}, "commit"=>"Submit", "id"=>"14"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 14]]
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "images_tags" WHERE "images_tags"."image_id" = $1 AND "images_tags"."tag_id" IN (42, 43)  [["image_id", 14]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "random"], ["created_at", "2016-01-13 01:44:19.457107"], ["updated_at", "2016-01-13 01:44:19.457107"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 14], ["tag_id", 44]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "tag"], ["created_at", "2016-01-13 01:44:19.459895"], ["updated_at", "2016-01-13 01:44:19.459895"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 14], ["tag_id", 45]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "obama"], ["created_at", "2016-01-13 01:44:19.462290"], ["updated_at", "2016-01-13 01:44:19.462290"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "images_tags" ("image_id", "tag_id") VALUES ($1, $2)  [["image_id", 14], ["tag_id", 46]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://reticulum.us:3000/images/14
+Completed 302 Found in 14ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/images/14" for 50.200.196.50 at 2016-01-12 20:44:19 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mImage Load (0.2ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 14]]
+  Rendered images/show.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:44:21 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images?utf8=%E2%9C%93&search=obama&commit=Search" for 50.200.196.50 at 2016-01-12 20:44:25 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"obama", "commit"=>"Search"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 12]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 13]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 14]]
+  Rendered images/_search.html.erb (0.2ms)
+  Rendered images/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 20:47:29 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/12" for 50.200.196.50 at 2016-01-12 20:47:35 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mImage Load (0.2ms)[0m  SELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1[0m  [["image_id", 12]]
+  Rendered images/show.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 50.200.196.50 at 2016-01-12 21:16:53 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered images/_search.html.erb (0.2ms)
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."user_id" = $1  [["user_id", 1]]
+  Rendered images/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/12" for 50.200.196.50 at 2016-01-12 21:17:39 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT  "images".* FROM "images" WHERE "images"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "images_tags" ON "tags"."id" = "images_tags"."tag_id" WHERE "images_tags"."image_id" = $1  [["image_id", 12]]
+  Rendered images/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/system/images/imagefiles/000/000/012/original/afterwork.gif1452446765" for 50.200.196.50 at 2016-01-12 21:19:29 -0500
+Cannot render console from 50.200.196.50! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/system/images/imagefiles/000/000/012/original/afterwork.gif1452446765"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/jtd/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/jtd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
